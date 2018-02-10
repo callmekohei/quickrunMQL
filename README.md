@@ -2,11 +2,12 @@
 
 ### Environmet
 ```
-tmp$ sw_vers 
+$ sw_vers 
 ProductName:	Mac OS X
 ProductVersion:	10.13.3
 BuildVersion:	17D47
-tmp$ wine --version
+
+$ wine --version
 wine-3.0
 ```
 
@@ -15,9 +16,6 @@ wine-3.0
 $ git clone https://github.com/callmekohei/quickrunMQL
 $ bash install.bash
 ```
-
-### quickrunMQL.bash setting
-change SendsKeyCMD `"/path/to/quickrunMQL/quickrunMQL.exe"`
 
 ### Quickrun setting
 change cmdopt `/path/to/quickrunMQL/quickrunMQL.bash`
@@ -33,7 +31,7 @@ let g:quickrun_config.mql4 = {
 ```
 // launch MetaTrader and MetaEditor
 
-// open mq4.file on MetaEditor
+// open foo.mq4 on MetaEditor
 
 // move to MQL4/Scripts folder
 $ cd $WINEPREFIX/drive_c/Program Files/OANDA - MetaTrader/MQL4/Scripts/
