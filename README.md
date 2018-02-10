@@ -1,12 +1,22 @@
 # quickrunMQL
 
-#### prepare
+### Environmet
+```
+tmp$ sw_vers 
+ProductName:	Mac OS X
+ProductVersion:	10.13.3
+BuildVersion:	17D47
+tmp$ wine --version
+wine-3.0
+```
+
+### Prepare
 ```
 $ git clone https://github.com/callmekohei/quickrunMQL
 $ bash install.bash
 ```
 
-### quickrun setting
+### Quickrun setting
 change cmdopt `/path/to/quickrunMQL/quickrunMQL.bash`
 ```vim
 let g:quickrun_config.mql4 = {
