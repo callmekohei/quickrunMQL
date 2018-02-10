@@ -16,6 +16,9 @@ $ git clone https://github.com/callmekohei/quickrunMQL
 $ bash install.bash
 ```
 
+### quickrunMQL.bash setting
+change SendsKeyCMD `"/path/to/quickrunMQL/quickrunMQL.exe"`
+
 ### Quickrun setting
 change cmdopt `/path/to/quickrunMQL/quickrunMQL.bash`
 ```vim
