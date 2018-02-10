@@ -7,7 +7,7 @@ $ bash install.bash
 ```
 
 ### quickrun setting
-change cmdopt '/path/to/quickrunMQL/quickrunMQL.bash'
+change cmdopt `/path/to/quickrunMQL/quickrunMQL.bash`
 ```vim
 let g:quickrun_config.mql4 = {
     \  'exec': [ '%c %o %s:p:t' ]
