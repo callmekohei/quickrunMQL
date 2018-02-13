@@ -1,5 +1,5 @@
 # ===========================================================================
-#  FILE    : mql
+#  FILE    : quickrunMQL.bash
 #  AUTHOR  : callmekohei <callmekohei at gmail.com>
 #  License : MIT license
 # ===========================================================================
@@ -27,4 +27,5 @@ fi
 
 rm foo.log
 rm bar.log
+
 
